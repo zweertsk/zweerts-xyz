@@ -14,7 +14,7 @@ Skills
 ------
 **Soft:** communication, teamwork, adaptability, empathy, critical thinking
 
-**Programming:** JavaScript, TypeScript, Git (CI), Command Line, Some Java, Some C#, Some Ruby
+**Programming:** JavaScript, TypeScript, Git (CI), Command Line, Some Java, Some C#, Some Ruby, Some Python
 
 **Testing:** Jest, Jasmine, Karma, Cypress, React-Testing-Library
 
@@ -112,7 +112,8 @@ Provide external participants a remote environment to attend DICENTIS conference
 - React (TypeScript)
 - Redux state management
 - HTML5/CSS3
-- Some #C
+- Storybook component development
+- Some C#
 - Google Protobuf
 - Microsoft SignalR
 - Microsoft Azure cloud infrastructure
