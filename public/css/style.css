@@ -1,0 +1,57 @@
+@font-face {
+  font-family: 'Source Serif VF';
+  font-weight: 200 900;
+  font-style: normal;
+  font-stretch: normal;
+  src: url('/fonts/SourceSerif4Variable-Roman.ttf.woff2') format('woff2'),
+}
+
+@font-face {
+  font-family: 'Source Serif VF';
+  font-weight: 200 900;
+  font-style: italic;
+  font-stretch: normal;
+  src: url('/fonts/SourceSerif4Variable-Italic.ttf.woff2') format('woff2'),
+}
+
+@font-face {
+  font-family: 'Source Code VF';
+  font-weight: 200 900;
+  font-style: normal;
+  font-stretch: normal;
+  src: url('/fonts/SourceCodeVF-Upright.ttf.woff2') format('woff2'),
+}
+
+@font-face {
+  font-family: 'Source Code VF';
+  font-weight: 200 900;
+  font-style: italic;
+  font-stretch: normal;
+  src: url('/fonts/SourceCodeVF-Italic.ttf.woff2') format('woff2'),
+}
+
+:root {
+  --serif-font: Source Serif VF;
+  --mono-font: Source Code VF;
+}
+
+html {
+  font-family: var(--serif-font);
+  font-size: large;
+  max-width: 768px;
+  margin: auto;
+}
+
+pre {
+  padding: 1rem;
+  overflow: auto;
+}
+
+code {
+  font-family: var(--mono-font);
+  font-size: medium;
+}
+
+a {
+  color: inherit;
+}

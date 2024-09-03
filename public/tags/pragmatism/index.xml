@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pragmatism on ZWEERTS.xyz</title>
+    <link>http://localhost:1313/tags/pragmatism/</link>
+    <description>Recent content in Pragmatism on ZWEERTS.xyz</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 11 Nov 2023 12:06:45 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/pragmatism/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Jack Of All Trades</title>
+      <link>http://localhost:1313/posts/jack-of-all-trades/</link>
+      <pubDate>Sat, 11 Nov 2023 12:06:45 +0100</pubDate>
+      <guid>http://localhost:1313/posts/jack-of-all-trades/</guid>
+      <description>I had a job interview once, for a software development position, in which we were discussing my areas of interest. Following with the experiences I had regarding those interests.</description>
+    </item>
+  </channel>
+</rss>

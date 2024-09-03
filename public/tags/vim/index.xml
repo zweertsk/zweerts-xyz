@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vim on ZWEERTS.xyz</title>
+    <link>http://localhost:1313/tags/vim/</link>
+    <description>Recent content in Vim on ZWEERTS.xyz</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 06 Jun 2024 20:47:18 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/vim/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Minimal Vim Options</title>
+      <link>http://localhost:1313/posts/minimal-vim-options/</link>
+      <pubDate>Thu, 06 Jun 2024 20:47:18 +0200</pubDate>
+      <guid>http://localhost:1313/posts/minimal-vim-options/</guid>
+      <description>Bare minimum list of options to add to a new vimrc file.</description>
+    </item>
+  </channel>
+</rss>

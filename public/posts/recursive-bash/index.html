@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Recursive Bash</title>
+	
+	
+	<link rel="stylesheet" href="/css/style.css">
+	
+</head>
+<body>
+	<header>
+  <h1><a href="http://localhost:1313/">ZWEERTS.xyz</a></h1>
+	
+</header>
+
+	
+	<main>
+		<article>
+			<h2>Recursive Bash</h2>
+			<time datetime="2023-11-11T12:06:45">
+        <i>11 November 2023</i>
+      </time>
+			<div>
+				<p>Given a list of files, e.g. movies in *.mp4 format.
+For each movie, make a directory with the title of that movie and move the movie file in that new directory. For file in *.mp4, check if it&rsquo;s a file or continue to next, make directory called like the file but without the extension and move the file into the folder with name (again without extension).</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#66d9ef">for</span> f in *.mp4; <span style="color:#66d9ef">do</span> <span style="color:#f92672">[</span> -f <span style="color:#e6db74">&#34;</span>$f<span style="color:#e6db74">&#34;</span> <span style="color:#f92672">]</span> <span style="color:#f92672">||</span> <span style="color:#66d9ef">continue</span>; mkdir <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>f%.*<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span> <span style="color:#f92672">&amp;&amp;</span> mv <span style="color:#e6db74">&#34;</span>$f<span style="color:#e6db74">&#34;</span> <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>f%.*<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>; <span style="color:#66d9ef">done</span>
+</span></span></code></pre></div><p>I have used the basis of this command a lot of times. Another example; to update my music catalog with the beets<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> command. Given a folder with albums and EP&rsquo;s in their own folder. For directory in current directory, check if it&rsquo;s a directory or continue, run beet import -d for directory.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#66d9ef">for</span> d in .; <span style="color:#66d9ef">do</span> <span style="color:#f92672">[</span> -d <span style="color:#e6db74">&#34;</span>$d<span style="color:#e6db74">&#34;</span> <span style="color:#f92672">]</span> <span style="color:#f92672">||</span> <span style="color:#66d9ef">continue</span>; beet import -d <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>f<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span> ; <span style="color:#66d9ef">done</span>
+</span></span></code></pre></div><div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p><a href="https://beets.io/">beets.io</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+			</div>
+			
+			<div>
+        <h3>Tags</h3>
+				<ul id="tags">
+					
+					<li><a href="/tags/bash">bash</a></li>
+					
+				</ul>
+			</div>
+			
+			
+		</article>
+	</main>
+<aside>
+  <h3>Latest Posts</h3>
+  <nav>
+    <ul>
+      
+      <li><a href="/posts/import-export-phone-contacts/">Export iPhone Contacts To Nokia</a></li>
+      
+      <li><a href="/posts/minimal-vim-options/">Minimal Vim Options</a></li>
+      
+      <li><a href="/posts/jack-of-all-trades/">Jack Of All Trades</a></li>
+      
+      <li><a href="/posts/recursive-bash/">Recursive Bash</a></li>
+      
+      <li><a href="/posts/nginx-user-directories/">Nginx User Directories</a></li>
+      
+    </ul>
+  </nav>
+</aside>
+
+
+	<footer>
+	<p>&copy; 2024 <a href="http://localhost:1313/">ZWEERTS.xyz</a></p>
+</footer>
+
+</body>
+</html>
