@@ -20,6 +20,8 @@ Skills
 
 **Web Development:** HTML5/CSS3, React, Angular
 
+**Virtualization:** Containers (Docker), Virtual machines (Azure, AWS, Oracle), some Kubernetes
+
 **OS:** GNU/Linux, MacOS, Windows
 
 Experience
