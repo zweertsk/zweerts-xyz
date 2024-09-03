@@ -7,7 +7,7 @@ Koen Zweerts
 ======
 
 #### Software Engineer with a background in sports and a drive for continuous improvement, both professional and personal.
-###### [ [Website](http://zweerts.xyz) ] . [ [GitHub](https://github.com/kzweerts) ] . [ [koen@zweerts.xyz](mailto:koen@zweerts.xyz) ]
+###### [ [Website](http://zweerts.xyz) ] . [ [GitHub](https://github.com/zweertsk) ] . [ [koen@zweerts.xyz](mailto:koen@zweerts.xyz) ]
 
 
 Skills
