@@ -1,17 +1,7 @@
 {{ define "main" }}
 	<main>
-    <section>
-      <h2>Meta</h2>
-      {{ .Content }}
-    </section>
-    <section>
-      <h2>All Posts</h2>
-      {{ $paginator := .Paginate (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}
-      {{ range $paginator.Pages }}
-        {{ .Render "summary" }}
-      {{ end }}
-    </section>
-		{{ partial "pagination.html" . }}
+    <h2>Meta</h2>
+    {{ .Content }}
 	</main>
 {{ partial "sidebar.html" . }}
 {{ end }}
