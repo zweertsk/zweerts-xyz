@@ -105,6 +105,22 @@ Certifications
 
 Projects
 --------
+**Client Web Application** [*OCLC Wise*](https://www.oclc.org/en/wise.html) (2023-present)
+
+Rewriting legacy applications with modern Angular code following the latest concepts and architecture.
+
+- Angular (TypeScript)
+- RxJs
+- NgRx state management
+- HTML5/CSS3
+- API & documentation development
+- Java
+- Jasmine
+- Karma
+- Cypress
+- Continuous Integration & Delivery
+- Atlassian (Jira & Bitbucket)
+
 **Client Web Application** [*Bosch Security Systems, DICENTIS Hybrid meetings*](https://www.boschsecurity.com/xc/en/solutions/conference-solutions/hybrid-meetings) (2021-2023)
 
 Provide external participants a remote environment to attend DICENTIS conferences through their browser. Proud to be the sole frontend developer who helped prove the proof of concept to be of value and to be further developed into a product.
@@ -121,21 +137,6 @@ Provide external participants a remote environment to attend DICENTIS conference
 - Continuous Integration & Delivery
 - Jest
 - React Testing Library
-
-**Client Web Application** [*OCLC Wise*](https://www.oclc.org/en/wise.html) (2023-present)
-
-Rewriting legacy applications with modern Angular code following the latest concepts and architecture.
-
-- Angular (TypeScript)
-- RxJs
-- NgRx state management
-- HTML5/CSS3
-- Some Java
-- Jasmine
-- Karma
-- Cypress
-- Continuous Integration & Delivery
-- Atlassian (Jira & Bitbucket)
 
 Volunteering
 --------
