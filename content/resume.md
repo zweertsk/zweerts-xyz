@@ -115,7 +115,7 @@ Projects
 --------
 **Client Web Application** [*OCLC Wise*](https://www.oclc.org/en/wise.html) (2023-present)
 
-Rewriting legacy applications with modern Angular code following the latest concepts and architecture.
+Rewriting legacy frontend applications with modern Angular code following the latest concepts and architecture. On the backend; API development with Java, Spring and OpenAPI.
 
 - Angular (TypeScript)
 - RxJs
